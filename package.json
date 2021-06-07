@@ -1,0 +1,24 @@
+{
+  "name": "zx_wii_tools",
+  "version": "1.0.0",
+  "description": "Wii Tools with ZX",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "node_modules/zx/zx.mjs main.js",
+    "electron": "node_modules/electron/cli.js ."
+  },
+  "keywords": [
+    "Wii",
+    "Tools",
+    "ZX"
+  ],
+  "author": "Adolfo Luiz",
+  "license": "ISC",
+  "dependencies": {
+    "zx": "^1.14.1"
+  },
+  "devDependencies": {
+    "electron": "^13.1.1"
+  }
+}
